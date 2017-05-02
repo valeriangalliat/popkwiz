@@ -1,0 +1,19 @@
+{
+  "name": "popkwiz",
+  "version": "1.0.0",
+  "description": "Scraper for the Pop Music Quiz.",
+  "homepage": "https://github.com/valeriangalliat/popkwiz",
+  "license": "Unlicense",
+  "author": "Valérian Galliat (https://val.codejam.info/)",
+  "scripts": {
+    "prepublish": "npm test",
+    "test": "standard"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  }
+}
